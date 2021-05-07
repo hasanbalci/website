@@ -2,10 +2,14 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Some of the courses that I have served as Teaching Assistant (TA) since 2012 
 nav: true
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-Organize your courses by years, topics, or universities, however you like!
+- CS473 - Algorithms I
+- CS421 - Computer Networks
+- CS319 - Object-Oriented Software Engineering
+- CS202 - Fundamental Structures of Computer Science II
+- CS201 - Fundamental Structures of Computer Science I
+- CS102 - Algorithms and Programming II
+- CS121, CS123 - Introduction to Computing for Social Sciences

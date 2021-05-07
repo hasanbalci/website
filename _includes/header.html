@@ -5,7 +5,7 @@
     <div class="container">
       {% if page.title != "about" %}
       <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
-       {% if site.title == "blank" %}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}{% else %}{{ site.title }}{% endif %}
+       {% if site.title == "blank" %}<span class="font-weight-normal">{{ site.first_name }} {{ site.middle_name }}  {{ site.last_name }}</span>{% else %}{{ site.title }}{% endif %}
       </a>
       {% elsif site.show_social_icons %}
         <!-- Social Icons -->
@@ -43,7 +43,7 @@
           </li>
           {% endif %}
           <!-- Other pages -->
-          {% assign sorted_pages = site.pages | sort: "title" %}
+          {% assign sorted_pages = site.pages | sort: "pages" %}
           {% for p in sorted_pages %}
           {% if p.nav and p.autogen == nil %}
           <li class="nav-item {% if page.title == p.title %}active{% endif %}">

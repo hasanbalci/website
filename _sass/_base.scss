@@ -44,9 +44,9 @@ a, table.table a {
 
   .address {
     margin-bottom: 5px;
-    margin-top: 5px;
+    margin-top: 10px;
     font-family: monospace;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     p {
       display: inline-block;
       margin: 0;
@@ -192,6 +192,7 @@ footer.fixed-bottom {
     color: var(--global-footer-text-color);
     padding-top: 9px;
     padding-bottom: 8px;
+    text-align: center;
   }
   a {
     color: var(--global-footer-link-color);
