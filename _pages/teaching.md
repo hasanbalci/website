@@ -12,4 +12,4 @@ nav: true
 - CS202 - Fundamental Structures of Computer Science II
 - CS201 - Fundamental Structures of Computer Science I
 - CS102 - Algorithms and Programming II
-- CS121, CS123 - Introduction to Computing for Social Sciences
+- CS121 - Introduction to Computing for Social Sciences
